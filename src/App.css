@@ -1,0 +1,17 @@
+body {
+  background-color: #d3d3d3;
+  font-family: Cambria;
+}
+
+.container {
+  display: flex;
+}
+
+.other {
+  flex: 4;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

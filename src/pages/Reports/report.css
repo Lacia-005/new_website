@@ -1,0 +1,53 @@
+.userList {
+  flex: 4;
+  min-height: 100vh;
+  font-family: Cambria;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.reWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  float: right;
+}
+
+.userListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.geButton {
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  order: 2;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+}

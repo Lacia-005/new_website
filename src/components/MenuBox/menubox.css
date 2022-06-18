@@ -1,0 +1,25 @@
+.box {
+  font-family: Cambria;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  /* margin-bottom: 10px; */
+}
+
+.imgBox {
+  /* height: 500px;
+  width: 500px; */
+}
+
+.nameBox {
+  /* color: white; */
+  /* text-align: center; */
+  border: 0px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.box:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}

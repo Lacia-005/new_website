@@ -1,0 +1,30 @@
+.stContainer {
+  flex: 4;
+  min-height: 100vh;
+  /* background-color: #D3D3D3; */
+  font-family: Cambria;
+}
+
+.stdivContainer {
+  /* padding: 10px; */
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.stboxContainer {
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  float: center;
+}
+
+.stButton {
+  color: red;
+  border-radius: 12px;
+  border: none;
+  margin-left: auto;
+  justify-content: flex-end;
+  cursor: pointer;
+}

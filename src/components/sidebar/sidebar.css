@@ -1,0 +1,115 @@
+.sidebar {
+  flex: 1;
+  /* height: calc(100vh-50px); */
+  height: 100vh;
+  /* background-color: rgb(225, 222, 228); */
+  background-color: #315399;
+  position: sticky;
+  /* overflow: auto; */
+  /* top: 50px; */
+}
+
+.sidebarWrapper {
+  /* padding: 20px; */
+  color: rgb(12, 12, 12);
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sidebarTitle {
+  /* font-size: 23px;
+  color: #000; */
+  display: flex;
+  padding: 6px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+  color: white;
+  font-family: Cambria;
+  font-weight: bold;
+}
+
+.sidebarListItem {
+  cursor: pointer;
+  display: flex;
+  /* align-items: center; */
+  /* border-radius: 10px; */
+  /* width:100%; */
+  padding: 10px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  /* background-color: rgb(240, 240, 255); */
+  color: white;
+  background-color: #a9a9a9;
+  /* width:100%; */
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+  height: 20px;
+  cursor: pointer;
+  /* float: right; */
+  /* position: relative; */
+}
+
+.cateIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.selected {
+  background-color: rgb(240, 240, 255);
+}
+
+.divLiBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.cateBox {
+  display: flex;
+  flex-direction: row;
+  /* background-color:red; */
+  font-family: Cambria;
+  font-weight: bold;
+  gap: 10px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.iconGroup {
+  color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.iconAndName {
+  display: flex;
+  flex-direction: row;
+}
+
+.titleDSMS {
+  display: flex;
+  justify-content: center;
+  /*this centers the text vertically*/
+  align-items: center;
+  color: white;
+}

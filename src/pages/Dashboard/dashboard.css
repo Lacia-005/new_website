@@ -1,0 +1,28 @@
+.dbContainer {
+  flex: 4;
+  min-height: 100vh;
+  font-family: Cambria;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  /* background-color:red; */
+  /* font-family: Cambria; */
+  font-weight: bold;
+  gap: 10px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.meunContainer {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.linkBox {
+  width: 50%;
+  margin-bottom: 10px;
+}
